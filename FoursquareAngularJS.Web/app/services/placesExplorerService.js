@@ -1,6 +1,6 @@
 ﻿'use strict';
-//Get your client ID and secrent by visiting https://developer.foursquare.com
-//Thise are demo client Id & secret.
+//Get your client ID and secret by visiting https://developer.foursquare.com
+//These are demo client Id & secret.
 
 var requestParms = {
     clientId: "DO5JJHGXBODWHZUZ2W45T0S35PKJH3MCLC1SKF5U4X3VF4YA",

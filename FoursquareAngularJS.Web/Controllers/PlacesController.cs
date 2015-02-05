@@ -27,7 +27,7 @@ namespace FoursquareAngularJS.Web.Controllers
             };
 
             System.Web.HttpContext.Current.Response.Headers.Add("X-Pagination",
-                                                                Newtonsoft.Json.JsonConvert.SerializeObject(paginationHeader));
+                            Newtonsoft.Json.JsonConvert.SerializeObject(paginationHeader));
 
             var results = query
                          .Skip(pageSize * page)

@@ -40,7 +40,7 @@ app.factory('placesDataService', function ($http, toaster) {
                 }
                 else
                 {
-                    toaster.pop('error', "Faield to Bookmark", "Something went wrong while saving :-(");
+                    toaster.pop('error', "Failed to Bookmark", "Something went wrong while saving :-(");
                 }
 
 
